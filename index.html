@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ems - Desarrolladora Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,300&family=DM+Sans:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <a href="#hero">Ems<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <main>
+    <section id="hero">
+      <div class="hero-contenido">
+        <span class="hero-tag">✦ Disponible para proyectos</span>
+        <h1>Desarrollo web <br>con alma <br>creativa</h1>
+        <P>Soy Ems, desarrolladora web de Valencia. Vengo del diseño y la fotografía, y creo interfaces que funcionan
+          tan bien como se ven.</P>
+        <div class="hero-botones">
+          <a href="#projects" class="btn btn-primario">Ver proyectos</a>
+          <a href="#contact" class="btn btn-secundario">Hablemos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="contenedor">
+        <p class="section-label">Sobre mí</p>
+        <div class="about-grid">
+          <div class="about-texto">
+            <h2>Diseño y código<br> en la misma persona.</h2>
+            <p>Vengo del mundo de la <strong>fotografía, el vídeo y el diseño gráfico</strong>. Sé lo que hace que algo
+              se vea bien — y ahora también sé construirlo.</p>
+            <p>Empecé a programar hace relativamente poco, pero avanzo rápido porque me apasiona. Creo que la web
+              necesita más personas que entiendan tanto de <strong>Figma como de JavaScript</strong>.</p>
+            <p>Asentada en <strong>Valencia, España</strong> — trabajando con el mundo entero.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card" style="--card-acento: var(--color-acento)">
+              <span class="stat-numero">3+</span>
+              <span class="stat-label">Años en diseño gráfico y fotografía</span>
+            </div>
+            <div class="stat-card" style="--card-acento: #2a7ae8">
+              <span class="stat-numero">100%</span>
+              <span class="stat-label">Enfoque en interfaces útiles y bonitas</span>
+            </div>
+            <div class="stat-card" style="--card-acento: #f0c420">
+              <span class="stat-numero">∞</span>
+              <span class="stat-label">Ganas de aprender cada día</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="contenedor">
+        <p class="section-label">Skills</p>
+        <h2 class="section-titulo">Lo que sé hacer.</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-icono">🎨</span>
+            <h3>HTML & CSS</h3>
+            <p>Maquetación semántica, Flexbox, Grid, animaciones y responsice desing.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icono">⚡</span>
+            <h3>JavaScript</h3>
+            <p>DOM, eventos, async/await, fetch, y lógica de aplicación.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icono">⚛️</span>
+            <h3>React</h3>
+            <p>Componentes, hooks, estado y construcción de SPA modernas.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icono">🖼️</span>
+            <h3>Diseño & Figma</h3>
+            <p>Prototipado, sistemas de diseño, tipografías y paletas de color.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icono">📷</span>
+            <h3>Fotografía & Vídeo</h3>
+            <p>Direccion de arte visula, postproducción y narrativa visual.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icono">🌱</span>
+            <h3>Aprendiendo</h3>
+            <p>Node.js, APIs externas, bases de datos y desarrollo full stack.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="contenedor">
+        <p class="section-label">Proyectos</p>
+        <h2 class="sectio-titulo">Cosas que he construido.</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-thumb" style="background: linear-gradient(135deg, #6B21A8, #A855F7);">
+              <span>⚔️</span>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <h3>Yincana RPG</h3>
+              <p>App interactiva para la despedida de soltera de Emma.
+                Presentación de pruebas, personajes y sistema de puntuación en tiempo real.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/pilarems/emma-quest.git" target="_blank" class="project-link">Ver código
+                  →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card empty">
+            <span class="empty-icon">🚧</span>
+            <strong>Próximamente</strong>
+            <span>App interactiva con JavaScript</span>
+          </div>
+
+          <div class="project-card empty">
+            <span class="empty-icon">🚧</span>
+            <strong>Próximamente</strong>
+            <span>App del tiempo con API</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="contact">
+
+      <div class="contenedor">
+        <p class="section-label">Contacto</p>
+        <h2 class="section-titulo">¿Trabajamos juntas?</h2>
+        <p class="contact-intro">Estoy abierta a proyectos freelance, colaboraciones y oportunidades de trabajo.
+          Escríbeme sin compromiso.</p>
+        <div class="contact-links">
+          <a href="mailto:pilarems@gmail.com" class="contact-link">
+            <span class="contact-icono">✉️</span>
+            <span>pilarems@gmail.com</span>
+          </a>
+          <a href="https://github.com/pilarems" target="_blank" class="contact-link">
+            <span class="contact-icono">🐙</span>
+            <span>github.com/pilarems</span>
+          </a>
+          <a href="https://www.linkedin.com/in/pilar-edo/" target="_blank" class="contact-link">
+            <span class="contact-icono">💼</span>
+            <span>www.linkedin.com/in/pilar-edo/</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="contenedor footer-inner">
+      <span>© 2025 Ems - Valencia, España</span>
+      <span>Hecho con HTML & CSS puro</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

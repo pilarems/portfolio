@@ -1,0 +1,25 @@
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    nav.classList.add("scrolled");
+  } else {
+    nav.classList.remove("scrolled");
+  }
+});
+
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+navToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("abierto");
+  navToggle.classList.toggle("abierto");
+});
+
+//cerrar manú
+navLinks.querySelectorAll("a").forEach((enlace) => {
+  enlace.addEventListener("click", () => {
+    navLinks.classList.remove("abierto");
+    navToggle.classList.remove("abierto");
+  });
+});
